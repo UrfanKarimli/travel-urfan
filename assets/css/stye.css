@@ -365,15 +365,44 @@ header .container .row a {
     line-height: 50px;
 }
 #gallery {
-    background-color: #fff;
+margin: 60px 0 60px;
 
 }
 
-#gallery .container .content {}
+#gallery .container .content {
+    text-align: center;
+}
+
+#gallery .container .content h3 {
+    color: #1e3050;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+#gallery .container .content h2 {
+    color: #1e3050;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
 
 #gallery .container .gallery {
     display: grid;
     grid-template-columns: auto auto auto;
+    
+}
+
+#gallery .container button {
+    text-align: center;
+    margin: 50px 50%;
+    border: none;
+    border-radius: 50px;
+    height: 45px;
+    width: 180px;
+    background-color: rgba(216, 224, 100, 0.877);
+    color: #1e3050;
 }
 
 #customer-satisfaction .container {
@@ -381,9 +410,35 @@ header .container .row a {
     height: 400px;
 }
 
+#customer-satisfaction .container .clients {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#customer-satisfaction .container .clients .content {
+    width: 60%;
+}
+
+#customer-satisfaction .container .clients .content h2 {
+    font-size: 40px;
+    line-height: 80px;
+    color: #1e3050;
+}
+
+#customer-satisfaction .container .clients .content p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #1e3050;
+}
+
+#customer-satisfaction .container .clients .content .five-star {
+    margin: 20px 3px 20px;
+}
+
 #customer-satisfaction .container .clients .content .little-circule-img {
     display: flex;
-    
+    margin: 30px 0 30px;
 
 }
 #customer-satisfaction .container .clients .content .little-circule-img figure img{
@@ -394,18 +449,21 @@ header .container .row a {
 }
 #customer-satisfaction .container .clients .content .little-circule-img figure figcaption {
     color: #1e3050;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bold;
+    align-items: center;
 }
 
 
 #customer-satisfaction .container .clients .right-buttom-left-radius img {
-    position: absolute;
-    right: 0px;
+    /* position: absolute;
+    right: 0px; */
     border-radius: 10px 50% 50% 50%;
+    margin: 80px 100px 0px 0px;
 }
 
 /* ! footer */
+
 .footer-top-buttom {
     height: 150px;
     background-color: #1e3050;
@@ -416,9 +474,13 @@ header .container .row a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #1f95cc;
 }
 
+
+.footer-top-buttom .footer-top-row a {
+    color: #fff;
+}
 
 .footer-top-buttom .footer-buttom-row {
     height: 50%;
@@ -427,7 +489,15 @@ header .container .row a {
     align-items: center;
 }
 
-.footer-top-buttom .footer-buttom-row p {}
+.footer-top-buttom .footer-buttom-row p {
+    color: #1f95cc;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+}
+.footer-top-buttom .footer-buttom-row a{
+    color: #1f95cc;
+}
 
 .footer-top-buttom .footer-buttom-row ul li {
     display: inline-block;
